@@ -1,0 +1,27 @@
+html, body{
+    font-family: Arial;
+    margin: 0;
+}
+header{
+    margin: 0;
+    height: 100vh;
+    background-image: url(blur.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+#header-content{
+    height: auto;
+    margin: auto;
+    width: 800px;
+    padding-top: 300px;
+}
+.banner-item{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+a.banner-item{
+    display: block;
+
+}
