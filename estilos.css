@@ -165,3 +165,9 @@ input[type="submit"]:active{
     color: white;
     font-weight: bold;
 }
+footer > div{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(233, 232, 232);
+    font-size: 12px;
+}
