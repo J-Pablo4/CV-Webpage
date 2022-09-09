@@ -59,7 +59,7 @@ main{
 main > div{
     border-radius: 7px;
     max-width: 900px;
-    background-color: white;
+    background-color: rgb(241, 241, 241);
     margin: auto;
     box-shadow: 2px 1px 40px rgba(0, 0, 0, 0.4)
 }
@@ -109,4 +109,59 @@ div.programming > div:first-child{
 .programming-item:nth-child(2){
     margin-left: 18px;
     margin-right: 18px;
+}
+footer{
+    box-sizing: border-box;
+    background-color: rgb(52, 52, 52);
+}
+footer > h1{
+    color: rgb(230, 230, 230);
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+form{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+label{
+    color: rgb(230, 230, 230);
+    display: block;
+    letter-spacing: 1px;
+}
+input{
+    margin-top: 10px;
+}
+input[type="text"], [type="email"]{
+    border-radius: 4px;
+    padding: 6px 15px;
+    background-color: rgb(238, 237, 237);
+    width: 200px;
+}
+::placeholder{
+    font-family: Verdana;
+    color: rgb(97, 97, 97);
+}
+textarea{
+    margin-top: 10px;
+    background-color: rgb(238, 237, 237);
+    border-radius: 4px;
+    resize: none;
+    width: 400px;
+}
+input[type="submit"]{
+    display: block;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 90px;
+    height: 28px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(175, 175, 175);
+    color: white;
+}
+input[type="submit"]:active{
+    background-color: rgb(24, 170, 255);
+    color: white;
+    font-weight: bold;
 }
