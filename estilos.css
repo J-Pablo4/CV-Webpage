@@ -75,8 +75,8 @@ h1 + p{
     line-height: 1.6;
     text-align: justify;
     text-justify: inter-word;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 32px;
 }
 h1 ~ p::first-letter{
@@ -178,4 +178,5 @@ footer > div{
     text-align: center;
     color: rgb(233, 232, 232);
     font-size: 12px;
+    padding-bottom: 10px;
 }
