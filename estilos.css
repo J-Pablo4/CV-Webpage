@@ -39,11 +39,11 @@ div > a:hover{
 div > a:active{
     color: grey;
 }
-div.header-content > h1{
+div > h1.banner-item{
     font-size: 82px;
     padding-bottom: 10px;
 }
-div.header-content > h2{
+div > h2.banner-item{
     font-size: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
