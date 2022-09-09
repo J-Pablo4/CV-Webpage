@@ -65,6 +65,7 @@ main > div{
 }
 main > div > h1{
     margin: 0;
+    letter-spacing: 2px;
     padding-top: 8px;
     padding-left: 10px;
     color: orange;
@@ -77,4 +78,35 @@ h1 + p{
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 32px;
+}
+h1 ~ p::first-letter{
+    font-size: 18px;
+}
+.programming{
+    width: 100%;
+    margin-top: 30px;
+}
+.programming-item{
+    width: 20%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float:left;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+div > img{
+    width: 100%;
+}
+div.programming > div:first-child{
+    margin-left: 65px;
+}
+.programming-item:nth-child(2){
+    margin-left: 18px;
+    margin-right: 18px;
 }
