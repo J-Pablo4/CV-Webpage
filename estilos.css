@@ -34,7 +34,7 @@ a.banner-item{
     font-size: 18px;
     margin: auto;
     margin-top: 70px;
-    background-color: rgba(171, 171, 171, 0.2);
+    background-color: rgba(171, 171, 171, 0.4);
     font-weight: bold;
 }
 div > a:hover{
