@@ -32,6 +32,7 @@ a.banner-item{
     margin: auto;
     margin-top: 70px;
     background-color: rgba(171, 171, 171, 0.2);
+    font-weight: bold;
 }
 div > a:hover{
     color: lightgrey;
@@ -46,6 +47,7 @@ div > h1.banner-item{
 div > h2.banner-item{
     font-size: 40px;
     padding-top: 10px;
+    letter-spacing: 2px;
     padding-bottom: 10px;
     background-color: rgba(128, 128, 128, 0.5);
 }
@@ -55,13 +57,23 @@ main{
     margin: 0;
 }
 main > div{
-    max-width: 800px;
+    border-radius: 7px;
+    max-width: 900px;
     background-color: white;
     margin: auto;
     box-shadow: 2px 1px 40px rgba(0, 0, 0, 0.4)
 }
 main > div > h1{
     margin: 0;
-    padding-top: 20px;
+    padding-top: 8px;
+    padding-left: 10px;
     color: orange;
+}
+h1 + p{
+    font-family: Arial;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 10px;
+    padding-right: 10px;
 }
