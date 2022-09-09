@@ -151,27 +151,19 @@ input[type="text"], [type="email"]{
     color: rgb(97, 97, 97);
 }
 textarea{
+    display: block;
     margin-top: 10px;
     background-color: rgb(238, 237, 237);
     border-radius: 4px;
     resize: none;
     width: 400px;
 }
-input[type="submit"]{
+input:disabled{
     display: block;
     border-radius: 4px;
     font-size: 14px;
     width: 90px;
     height: 28px;
-}
-input[type="submit"]:hover{
-    background-color: rgb(175, 175, 175);
-    color: white;
-}
-input[type="submit"]:active{
-    background-color: rgb(24, 170, 255);
-    color: white;
-    font-weight: bold;
 }
 footer > div{
     padding-top: 20px;
