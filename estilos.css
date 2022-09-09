@@ -76,4 +76,5 @@ h1 + p{
     text-justify: inter-word;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 32px;
 }
